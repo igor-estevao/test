@@ -1,0 +1,44 @@
+site para deixar salvo:
+https://angular.io
+
+-Parceria Google+Microsoft
+-Open Source;
+-Atualmente na versão RC(Release Candidate)
+-Não é contunuação da versão 1;
+-Foi reescrito e não tem a ver com Angular 1;
+-Uso de padrões web e Web Components;
+
+
+-------BLOCOS PRINCIPAIS-------
+-Componentes;
+-Diretivas;
+-Roteamento;
+-Serviços;
+-Template;
+-Metadata;
+-Data Binding;
+-Injeção Dependência;
+
+
+
+---Componente: emcapsula o
+ .Template;
+ .Metadata: processamento das classes;
+ .Dado a ser mostrado na tela(Data Binding);
+ .Comportamento da View
+
+
+Toda a aplicação é orientada a componente.
+Todos os componentes seguem o esquema de componente pai(root);
+O principal objetivo do componente é exibir dados, um serviço 
+vai ser o intermediário do componente com o servidor backend. 
+"Injeção de dependência;
+
+SPA-Single Page Aplications
+O responsável pela navegação no Angular, é o Router.
+
+
+----Diretiva: 
+-Responsável por modificar elementos DOM e/ou seu comportamento.
+-Alguns componentes também são diretivas.
+-um exemplo é a diretiva de aumentar um campo de texto ao ele ser focado(<input type="text" autoGrow></>);

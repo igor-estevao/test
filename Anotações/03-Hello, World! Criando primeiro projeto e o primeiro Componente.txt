@@ -1,0 +1,51 @@
+-Agora será criado o primeiro Olá Mundo e criação de componente.
+
+-Para criar os projetos, é utilizado o Angular CLI
+    @ng new primeiro-projeto
+
+-esse comando gera um projeto novo, e baixa todas as dependências de 
+um projeto de angular.
+
+-Vamos utilizar, a princípio o diretório src/app/*
+
+
+*-Para rodar e testar a aplicação, utiliza-se o "ng serve", para iniciar o servidor;
+antes disso, deve-se estar no diretório do projeto para iniciar;
+
+
+------criando um componente
+-criar uma nova pasta em app: "meu-primeiro"
+-dentro dessa pasta, criar o arquivo "meu-primeiro.component.ts"
+
+-O typescript é basicamente javascript com ecmascript;
+
+-dentro desse componente, criar uma classe no nome do arquivo em CamelCase;
+passando a marcação de componente, para mostrar ao compilador que é uma classe de angular2
+
+
+"
+@Component({})
+class MeuPrimeiroComponent{
+    
+}
+"
+
+-para que essa classe componente funcione, é necessário importar a biblioteca
+Component do diretório 'angular/core':
+
+"import { Component } from '@angular/core';"
+
+-dentro do component, fazer a declaração de um selector;
+-esse selector é o que o component estará utilizando para a aplicação. no caso, é apenas uma(ou mais) tag html;
+
+-todo esse componente será exibido de uma vez na tela;
+-mas para q ele seja exibido, a classe deve ter uma propriedade export;
+
+-Após ser exportado, essa classe deve ser importada e declarada no modulo da aplicação
+
+
+--Basicamente, o angular é uma ferramenta que cria componentes personalizados de html e css para serem exibidos nas aplicações web;
+
+-- Também há um modo de criar um componente, e as rotas, importando e exportando para o módulo, que é utilizando
+o comando "ng g c <nome-componente>", no diretório desejado. desde que o serviço esteja finalizado;
+-esse comando já gera a pasta do componente com o css e o html prontos, e adiciona no módulo

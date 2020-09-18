@@ -1,0 +1,10 @@
+-Nessa aula, instalar o Node.js, para fazer a utilização de um servidor backend para rodas as aplicações;
+
+-Terminado de instalar o Node.js, instalar o typescript:
+    @npm install -g typescript
+
+-O typescript é uma linguagem de programação utilizada no angular.
+
+-Instalar o Angular CLI no pc:
+    @npm install -g @angular/cli
+

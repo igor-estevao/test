@@ -1,0 +1,27 @@
+-Todo componente gerado, tem um código html;
+
+-O intuito de utilizar o modelo de componentes para boas práticas de web,
+é de organizar e deixar a página mais responsiva para o usuário;
+
+-Dentro da classe do component de cursos, iremos dar o nome da variável que vai ser 
+atribuída ao componente;
+
+-vamos acessar essavariável para fazer um acesso de um site;
+
+-fazemos a interpolação dessa variável, com "{{}}" no html, para exibir
+o valor da variável(similar ao echo do php);
+
+-para exibir elementos de forma dinâmica, utilizamos diretivas.
+
+-para o elemento de lista/array, podemos utilizar a diretiva 'ngFor';
+ex: dentro de um li => 
+<li *ngFor="let variavel of varArray">
+    {{variavel}}
+</li>
+
+-dessa forma, a tag li irá ser executada e exibida para cada elemento do array;
+
+
+-o objetivo do template, é evitar criar arquivos para components muito pequenos, até 3 linhas.
+
+

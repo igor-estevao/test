@@ -1,0 +1,28 @@
+-Modulo, é aquele arquivo q ajuda a organizar e a modularizar a aplicaçao.
+
+-Semelhante a classes, da poo;
+
+-O módulo gerencia objetos;
+
+-em alguns módulos, é possível limitar o que será "exibido para os outros módulos
+da aplicaçao;
+
+-O módulo que ja é gerado ao criar um projeto, é o AppModel();
+
+-Para declarar a classe como um módulo, é necessário utilizar o decorator @ngModule;
+
+-Dentro de @ngModule, há metadados:
+    .declarations: onde é declarado todos os components, diretivas e pipes utilizados no modulo;
+    .imports: coloca outros módulos que serão utilizados;
+    .providers: coloca os serviços que ficarão disponíveis para todos os componentes no module atual;
+    .bootstrap: apenas encontrado no AppModule;
+
+-Com o crescimento exponencial, faz-se necessário a criação de módulos de funcionalidade. esses 
+módulos servem para organizar melhor o código;
+
+-Para criar um módulo, utiliza-se o comando "ng g m <nome>";
+
+-Os módulos de funcionalidade, diferentemente do módulo;
+
+-ao criar um componente novo, dentro da pasta de um componente, o sistema
+atualiza automaticamente os imports e as declarations;

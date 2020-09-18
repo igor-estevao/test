@@ -1,0 +1,16 @@
+-o typescript pode ser utilizado em qualquer projeto de javascript;
+
+-a declaraçao de variáveis é a mesma do javascript;
+
+-utilizando o typescript, e compilando-o com o ecmascript, ele gera um código javascript raw.
+
+-ao criar uma variável no ES6, ele gera a variável no javascript como "var";
+
+-uma das coisas mais utilizadas no javascript em programação funcional, é o ".map" de arrays;
+
+-para poder transpilar (compilar o javascript), pode-se utilizar o babel.com;
+
+-o que esse transpiler faz, é compilar o código typescript em javascript;
+
+-no typescript é possível tipar as variáveis. se uma variável é definida como string, não é
+possível atribuir um valor int nessa variável;
